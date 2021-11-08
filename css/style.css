@@ -2,13 +2,34 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
+.ms_btn {
+    padding: 15px 22px;
+    text-align: center;
+    color: white;
+    display: inline-block;
+    /* border-radius: 20%; */
+    margin-top: 20px;
+}
+.grey {
+    background-color: grey;
+}
+.blue {
+    background-color: #0d6efd;
+    width: 43%;
+}
 /* HEADER */
 header {
     font-family: Helvetica, Arial, sans-serif;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 1;
 }
 /* header top */
 .header-top {
     background-color: black;
+    
 }
 .header-top img {
     width: 110px;  
@@ -24,14 +45,14 @@ header {
 /* header bottom */
 .header-bottom {
     width: 100%;
-    position: fixed;
+    
     
 }
 .header-bottom i {
     color: lightgrey;
 }
 .header-bottom button {
-    border-radius: 20%;
+    border-radius: 35%;
     
 }
 .header-bottom .d-flex img {
@@ -46,4 +67,149 @@ header {
     margin-right: 25px;
     border: 1px solid lightgray;
     padding: 0 10px ;
+}
+
+/* MAIN */
+/* jumbotron returnals */
+.first-section {
+    margin-top: 125px;
+}
+.returnals {
+    background-image: url("../img/jumbo-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 568px;
+    
+}
+.description {
+    margin-top: 200px;
+    color: white;
+}
+.banner img {
+    width: 40%;
+    
+}
+.description div {
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.description button {
+    margin-top: 15px;
+    
+}
+/* anteprime */
+.anteprime img {
+    width: 70%;
+    margin-top: 50px;
+    border-radius: 10%;
+    vertical-align: middle;
+} 
+.first-image {
+    border: 4px solid skyblue;
+    padding: 2px;
+}
+/* PS5 */
+.presentazione {
+    text-align: center;
+    margin-top: 70px;
+}
+.presentazione h4 {
+    text-transform: uppercase;
+    color: rgb(20, 126, 247);
+    font-size: 15px;
+}
+.presentazione div {
+    margin-top: 20px;
+    color: lightslategrey;
+}
+.ms_col_console {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.ps {
+    width: 100%;
+}
+.ms_col_console div {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.prodotti {
+    text-align: center;
+    opacity: 0.7;
+}
+.prodotti img {
+    width: 65%;  
+}
+.console {
+    border-bottom: 2px solid rgb(20,126,247);
+    line-height: 50px;
+    opacity: unset;
+}
+
+/* jumbotron it takes two */
+.it-takes-two {
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 568px;
+    margin-top: 30px;
+}
+.it-takes-two .description {
+    margin-top: 180px;
+}
+
+/* nuove uscite */
+.nuove-uscite {
+    
+    background-color: #181a1b;
+    color: white;
+    text-align: left;
+    font-size: 15px;
+}
+.nuove-uscite h2 {
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+.nuove-uscite h4 {
+    margin-bottom: 25px;
+}
+.nuove-uscite img {
+    border-radius: 10%;
+}
+
+/* PS4 */
+.esplora-ps {
+    text-align: center;
+    color: grey;
+    margin-top: 50px;
+}
+.esplora-ps h2 {
+    color: black;
+}
+.esplora {
+    margin-top: 40px;
+}
+.esplora h2 {
+    color: black;
+}
+.esplora div {
+    color: grey;
+    margin-bottom: 30px;
+}
+.esplora img {
+    width: 50%;
+}
+
+/* plus */
+.plus {
+    background-color: lightgray;
+    margin-top: 30px;
+}
+.plus img {
+    width: 50%;
 }

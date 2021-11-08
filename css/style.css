@@ -205,11 +205,96 @@ header {
     width: 50%;
 }
 
-/* plus */
+/* plus e now */
 .plus {
     background-color: lightgray;
-    margin-top: 30px;
+    margin-top: 50px;
+    
 }
-.plus img {
+.now {
+    background-color: rgb(8, 19, 50);
+    margin-top: 50px;
+    color: white;
+}
+.plus-content img,
+.now-content img {
+    width: 70%;
+    margin-top: 20px;
+}
+.plus-content div,
+.now-content div {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.plus-image img,
+.now-image img {
+    width: 58%; 
+}
+.plus-image,
+.now-image {
+    display: flex;
+    justify-content: center;
+}
+@media (max-width: 768px) {
+    .col-md-7 {
+        display: none;
+    }
+}
+
+/* sconti */
+.sconti img {
+    width: 70%;
+}
+.sconti-content {
+    text-align: center;
+    color: grey;
+    margin-bottom: 50px;
+}
+.sconti-content h2 {
+    color: black;
+    margin-top: 40px
+}
+
+/* Social media */
+.social-media {
+    text-align: center;
+    margin-top: 50px;
+}
+.social-media img {
     width: 50%;
+    margin-top: 40px;
+}
+
+/* FOOTER */
+/* footer top */
+footer {
+    background-color: #00367d;
+    margin-top: 50px;
+    color: white;
+}
+.logo-ps {
+    margin-top: 50px;
+}
+.logo-ps img {
+    width: 15%;
+    margin-bottom: 20px;
+}
+.footer-top ul {
+    list-style-type: none;
+    margin-top: 50px;
+}
+.footer-top ul a {
+    text-decoration: none;
+    color: white;
+}
+/* footer-bottom */
+.footer-bottom {
+    margin-top: 50px;
+}
+.sony-logo img {
+    width: 20%;
+}
+.sony-logo span {
+    text-decoration: underline;
 }
